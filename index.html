@@ -9,25 +9,26 @@
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <h1>Lisa Carpenter</h1>
-    </header>
-    <article>
+        <h1>Lisa Carpenter</h1>        
         <img src="me.jpeg" alt="Lisa Carpenter circa 2018" width="200px" height="200px">
-        <p>Lisa comes from a background in physics, mathamatics, and high school education.  She spent eight years as an educator and enjoys sharing her passion for problem solving methods with others.  Her love for programming began while taking a computaional physics course in graduate school at University of Vermont.  She is especially  interested in modeling concepts from mathematics, physics, and all things science. She aspires to develop tranformative technologies for bicycle and pedestrian infrastructure, citizen science, and increasing access to and equity in education. </p>
-        <section class = "bike-ped">
-            <h2>Bicycle and Pedestrian Infrastructure</h2>
-            <p>The advent of driverless cars presents a unique opportunity to improve safety not only for passengers in cars, but for the cyclists and pedestrians who share the road. Transformative technologies could include</p>
-            <ul>
-                <li>Moving cars 3 feet when passing a cyclist</li>
-                <li>Giving priority to bike/ped users at crossings</li>
-                <li>Rerouting bikes and cars to unique routes and lanes</li>
-                <li>Data collection</li>
-            </ul>   
-    </section>
-    </article>
+    </header>
 
-    <article class = "education">
+    <section class='introduction'>
+        <p>Lisa comes from a background in physics, mathamatics, and high school education.  She spent eight years as an educator and enjoys sharing her passion for problem solving methods with others.  Her love for programming began while taking a computaional physics course in graduate school at University of Vermont.  She is especially  interested in modeling concepts from mathematics, physics, and all things science. She aspires to develop tranformative technologies for bicycle and pedestrian infrastructure, citizen science, and increasing access to and equity in education. </p>
+    </section>
+
+    <section class = "content">
+        <h2>Bicycle and Pedestrian Infrastructure</h2>
+        <p>The advent of driverless cars presents a unique opportunity to improve safety not only for passengers in cars, but for the cyclists and pedestrians who share the road. Transformative technologies could include</p>
+        <ul>
+            <li>Moving cars 3 feet when passing a cyclist</li>
+            <li>Giving priority to bike/ped users at crossings</li>
+            <li>Rerouting bikes and cars to unique routes and lanes</li>
+            <li>Data collection</li>
+        </ul>   
+    </section>
+
+    <section class = "content">
         <h2>Access and Equity in Eduaction</h2>
         <p>Here are some ways to improve access to and equity in education </p>
         <ol>
@@ -36,19 +37,29 @@
             <li>Connect students with quality instructors remotely</li>
         </ol>
         <p></p>
-    </article>
-    <section>
+    </section>
+
+    <section class = "content">
+            <h2>Computational Modeling</h2>
+            <p>Many problems in physics are solved most easily but writing a computer program to simulate complex real world environments.  Modeling helps account for variability and complexity, such as</p>
+            <ul>
+                <li>Drag force</li>
+                <li>Interactions between multiple molecules</li>
+                <li>Elevation dependent acceleration due to gravity</li>
+            </ul>
+            <p></p>
+        </section>
+
+    <section class='end'>
         <h3>Think you learned a thing or two?</h3>
         <button id="action-button">Take the quiz</button>
     </section>
+
     <section id="results">
         <h2>Your Quiz Results</h2>
         <p id = "quiz-results"></p>
     </section>
 
-    <footer>
-
-    </footer>
     <script type="module" src="app.js"></script>
     <script type="module" src="./src/quiz.js"></script>
     <script type="module" src="./src/is-yes.js"></script>
