@@ -12,46 +12,46 @@
         <img src="" alt="">
         <h1>Lisa Carpenter</h1>
     </header>
-    <nav></nav>
     <article>
-        <p>My interest in programming stems from my love of math, physics, and all things science.  </p>
-        <section class = physics>
-            <h2>Projectile Motion in Physics</h2>
-            <p> In introductory physics, we simplify the physical world, making assumptions that reduce complex problems to approachable approximations.  We typically assume the following: </p>
-            <ol>
-                <li>There is no air resistance.</li>
-                <li>Acceleration due to gravity is constant.</li>
-                <li>The projectile has no angular momentum.</li>
-            </ol>   
-            <p>Under these conditions, we can predict the motion of a ball using simple kinematic equations.  When you start to compare theoretical results to experimental ones, it become evident quickly that these assumptions prevent you from being able to model the <q>real world</q> with much accuracy.  When accounting for air resistance, the problem of a simple projectile is not so simple anymore.  Additionally, adding spin and elevation dependent gravity results in complex calculations.  The kinematic equations used in introductory physics courses require a condition of a constant force.  Eliminating air resistance results in this requirement being met, as the force of gravity is also assumed to be constant.  However, when air is introduced, a new force manifests itself; that of drag.  The drag force is proportional to the velocity squared.  Since velocity is constantly changing due to gravity, kinematic equations can no longer be used.  Instead, we can take an iterative approach. </p>
+        <img src="me.jpeg" alt="Lisa Carpenter circa 2018" width="200px" height="200px">
+        <p>Lisa comes from a background in physics, mathamatics, and high school education.  She spent eight years as an educator and enjoys sharing her passion for problem solving methods with others.  Her love for programming began while taking a computaional physics course in graduate school at University of Vermont.  She is especially  interested in modeling concepts from mathematics, physics, and all things science. She aspires to develop tranformative technologies for bicycle and pedestrian infrastructure, citizen science, and increasing access to and equity in education. </p>
+        <section class = "bike-ped">
+            <h2>Bicycle and Pedestrian Infrastructure</h2>
+            <p>The advent of driverless cars presents a unique opportunity to improve safety not only for passengers in cars, but for the cyclists and pedestrians who share the road. Transformative technologies could include</p>
+            <ul>
+                <li>Moving cars 3 feet when passing a cyclist</li>
+                <li>Giving priority to bike/ped users at crossings</li>
+                <li>Rerouting bikes and cars to unique routes and lanes</li>
+                <li>Data collection</li>
+            </ul>   
     </section>
-
     </article>
-    <section>
-        <img src="https://images.freeimages.com/images/large-previews/083/parachute-display-1314885.jpg" alt="parachute">
-        <img src="http://www.motiongenesis.com/MGWebSite/MGGetStarted/MGExampleProjectileMotion/MGBaseballTrajectorySimpleDragXYFeet.png" alt="projectile motion with and withou drag">
-    </section>
-    <article class = "pi">
-        <h2>Approximation of PI</h2>
-        <p>You could get lost for days reading through various <a href="https://en.wikipedia.org/wiki/Approximations_of_%CF%80" target="_blank">approximations of pi</a>.  Mathematicians who have tackled this problem include (but are not limited to) </p>
-        <ul>
-            <li>Liu Hui</li>
-            <li>Newton</li>
-            <li>Madhava</li>
-            <li>Ramanujan</li>
-            <li>Euler</li>
-        </ul>
+
+    <article class = "education">
+        <h2>Access and Equity in Eduaction</h2>
+        <p>Here are some ways to improve access to and equity in education </p>
+        <ol>
+            <li>Increase access to quality online resources</li>
+            <li>Provide laboratory experience with augmented reality</li>
+            <li>Connect students with quality instructors remotely</li>
+        </ol>
         <p></p>
     </article>
     <section>
         <h3>Think you learned a thing or two?</h3>
-        <button id="button-action">Take my quiz!</button>
+        <button id="action-button">Take the quiz</button>
+    </section>
+    <section id="results">
+        <h2>Your Quiz Results</h2>
+        <p id = "quiz-results"></p>
     </section>
 
     <footer>
 
     </footer>
     <script type="module" src="app.js"></script>
+    <script type="module" src="./src/quiz.js"></script>
+    <script type="module" src="./src/is-yes.js"></script>
     
 </body>
 </html>
