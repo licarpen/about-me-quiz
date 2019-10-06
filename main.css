@@ -10,12 +10,13 @@ body{
 }
 
 header{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
 }
 
 img{
     justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .end{
@@ -40,6 +41,14 @@ h2{
     text-align: center;
 }
 
+button{
+     background: lightsteelblue;
+     width: 120px;
+     height: 50px;
+     border: solid rgb(58, 5, 21) 7px;
+     font-size: 90%;
+ }
+
 section{
     justify-content: center;
     align-items: center;
@@ -52,11 +61,20 @@ section{
     text-align: center;
     padding: 50px;
     margin: 50px;
+    width: 50%;
+    background: rgb(236, 175, 241);
 }
  .content{
-    background: 
+    background: lightcyan;
+    margin: 35px;
+    width: 85%;
+    padding: 5%;
+    border: groove  rgb(58, 5, 21) 6px;
  }
 
  .introduction{
-
- }
+     background: lightsteelblue;
+     margin: 10px;
+     width: 90%;
+     padding: 5%;
+     border: solid rgb(58, 5, 21) 3px;

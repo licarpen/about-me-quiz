@@ -1,7 +1,6 @@
 // IMPORT MODULES under test here:
-// import example from '../src/example.js';
 
-import {isYes} from '../src/is-yes.js';
+import { isYes } from '../src/is-yes.js';
 const test = QUnit.test;
 
 test('isYes returns true if userInput is "yes"', function(assert) {

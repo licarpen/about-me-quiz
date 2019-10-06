@@ -4,7 +4,9 @@ export const isYes = (userInput) => {
     for (const i in yesForms) {
         if (userInput === yesForms[i]){
             return true;
-        }  
+        }      
+        else {
+            return false;
+        }
     }
-    return false;
 };
